@@ -1,0 +1,47 @@
+{
+  "name": "uniform-api-response",
+  "version": "1.0.0",
+  "description": "One consistent JSON envelope for every API response and error: success, data, error code, request id and pagination. Express-compatible, zero dependencies.",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "api",
+    "response",
+    "envelope",
+    "error handling",
+    "express",
+    "rest",
+    "standard",
+    "pagination",
+    "request id"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saimulhasnain-dev/uniform-api-response.git"
+  },
+  "homepage": "https://github.com/saimulhasnain-dev/uniform-api-response#readme",
+  "bugs": {
+    "url": "https://github.com/saimulhasnain-dev/uniform-api-response/issues"
+  },
+  "author": "saimulhasnain-dev"
+}
